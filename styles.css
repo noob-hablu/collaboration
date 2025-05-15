@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@theme{
+    --color-tutul: #f95738;
+}
+
+@layer components{
+    .head{
+        color: #f95738;
+        font-size: 5rem;
+        font-weight: bold;
+        background-color: black;
+    }
+}
